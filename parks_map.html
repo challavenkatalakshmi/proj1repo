@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c152fd949feee9e60d07a0647d22634b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c152fd949feee9e60d07a0647d22634b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c152fd949feee9e60d07a0647d22634b = L.map(
+                "map_c152fd949feee9e60d07a0647d22634b",
+                {
+                    center: [40.75, -73.98],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fa9ae75c9dc67737dad003826a25bd36 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fa9ae75c9dc67737dad003826a25bd36.addTo(map_c152fd949feee9e60d07a0647d22634b);
+        
+    
+            var marker_38f4d38d5aa8cd9d4d91b583cab86f86 = L.marker(
+                [40.7829, -73.9654],
+                {
+}
+            ).addTo(map_c152fd949feee9e60d07a0647d22634b);
+        
+    
+            var icon_148ef7ed109682b3b9adcdefb9769532 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_38f4d38d5aa8cd9d4d91b583cab86f86.setIcon(icon_148ef7ed109682b3b9adcdefb9769532);
+        
+    
+        var popup_b109c810919bcfadad3e05d77492b3c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f99b569a3dba1d3967bd6c219b916802 = $(`<div id="html_f99b569a3dba1d3967bd6c219b916802" style="width: 100.0%; height: 100.0%;">Central Park (3.41 sq.km)</div>`)[0];
+                popup_b109c810919bcfadad3e05d77492b3c5.setContent(html_f99b569a3dba1d3967bd6c219b916802);
+            
+        
+
+        marker_38f4d38d5aa8cd9d4d91b583cab86f86.bindPopup(popup_b109c810919bcfadad3e05d77492b3c5)
+        ;
+
+        
+    
+    
+            var marker_1e88dade36d44e3802fc534d4b89789e = L.marker(
+                [40.6602, -73.968],
+                {
+}
+            ).addTo(map_c152fd949feee9e60d07a0647d22634b);
+        
+    
+            var icon_265d53ae8a4015ea49ad54b879ef40c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e88dade36d44e3802fc534d4b89789e.setIcon(icon_265d53ae8a4015ea49ad54b879ef40c2);
+        
+    
+        var popup_bfc33cb7d5f76c76ef3e0e37008078cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21ce85fd5d502b6a3b020eef2d478c63 = $(`<div id="html_21ce85fd5d502b6a3b020eef2d478c63" style="width: 100.0%; height: 100.0%;">Prospect Park (2.37 sq.km)</div>`)[0];
+                popup_bfc33cb7d5f76c76ef3e0e37008078cb.setContent(html_21ce85fd5d502b6a3b020eef2d478c63);
+            
+        
+
+        marker_1e88dade36d44e3802fc534d4b89789e.bindPopup(popup_bfc33cb7d5f76c76ef3e0e37008078cb)
+        ;
+
+        
+    
+    
+            var marker_525eeb506708da0121acffd32f1f1c22 = L.marker(
+                [40.7033, -74.0169],
+                {
+}
+            ).addTo(map_c152fd949feee9e60d07a0647d22634b);
+        
+    
+            var icon_1d5c9e8754476de6108bfe32e9f8a862 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_525eeb506708da0121acffd32f1f1c22.setIcon(icon_1d5c9e8754476de6108bfe32e9f8a862);
+        
+    
+        var popup_3606e3d5a7c0a9d3b2a91c44eb611dc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66852d889464a9ca58455dc8530b9dfe = $(`<div id="html_66852d889464a9ca58455dc8530b9dfe" style="width: 100.0%; height: 100.0%;">Battery Park (0.25 sq.km)</div>`)[0];
+                popup_3606e3d5a7c0a9d3b2a91c44eb611dc4.setContent(html_66852d889464a9ca58455dc8530b9dfe);
+            
+        
+
+        marker_525eeb506708da0121acffd32f1f1c22.bindPopup(popup_3606e3d5a7c0a9d3b2a91c44eb611dc4)
+        ;
+
+        
+    
+</script>
+</html>
